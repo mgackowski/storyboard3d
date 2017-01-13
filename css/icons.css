@@ -1,0 +1,69 @@
+.ui-icon-preset:after {
+	background-image: url("svg/preset.svg");
+	background-size: 18px 18px;
+	opacity:0.81;
+}
+
+.ui-icon-camera:after {
+	background-image: url("svg/camera.svg");
+	background-size: 18px 18px;
+	opacity:0.81;
+}
+
+.ui-icon-lighting:after {
+	background-image: url("svg/lighting.svg");
+	background-size: 18px 18px;
+	opacity:0.81;
+}
+
+.ui-icon-stage:after {
+	background-image: url("svg/stage.svg");
+	background-size: 18px 18px;
+	opacity:0.81;
+}
+
+.ui-icon-cast:after {
+	background-image: url("svg/cast.svg");
+	background-size: 18px 18px;
+	opacity:0.81;
+}
+
+.ui-icon-acting:after {
+	background-image: url("svg/acting.svg");
+	background-size: 18px 18px;
+	opacity:0.81;
+}
+
+.ui-icon-props:after {
+	background-image: url("svg/props.svg");
+	background-size: 18px 18px;
+	opacity:0.81;
+}
+
+.ui-icon-script:after {
+	background-image: url("svg/script.svg");
+	background-size: 18px 18px;
+	opacity:0.81;
+}
+
+.ui-icon-advanced:after {
+	background-image: url("svg/advanced.svg");
+	background-size: 18px 18px;
+	opacity:0.81;
+}
+
+#statusOverlay {
+	position: fixed;
+    top: 1em;
+    right: 1em;
+    color:#fff;
+    background-color:#000;
+    opacity:0;
+    padding: 10px;
+    pointer-events:none;
+    /*border-radius: 4px;*/
+}
+
+#statusOverlay span {
+	font-size: 80%;
+}

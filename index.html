@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Digital Storyboarding Tool</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="description" content="A 3D Storyboarding application for filmmakers. Come along and check the prototype!" />
+
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+		<style type="text/css">
+			body {
+			    background: url(http://interaction.dundee.ac.uk/~mwgackowski/blog/wp-content/uploads/2015/05/1greatimg-alt-1024x768.jpg);
+			    background-repeat:repeat-y;
+			    background-position:center center;
+			    background-attachment:scroll;
+			    background-size:100%;
+			    background-
+			}
+			.ui-page {
+			    background: transparent;
+			}
+			.ui-content{
+			    background: transparent;
+			}
+		</style>
+
+	</head>
+	<body>
+		<div data-role="page" id="welcomePage" data-theme="b" style="background-color:rgba(0, 0, 0, 0.8)">
+			<div data-role="header">
+				<h1>Rapid Storyboarding</h1>
+			</div>
+			<div data-role="content" style="line-height:120%">
+				<div data-role="tabs" id="tabs">
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#one">Introduction</a></li>
+							<li><a href="#two">Features and Limitations</a></li>
+							<li><a href="#three">Feedback and Contact</a></li>
+						</ul>
+					</div>
+					<div id="one" class="ui-body-d ui-content" style="padding:1em">
+						<p>Welcome to the Rapid Storyboarding project page.<p>
+						<p>My goal is to create a digital storyboarding tool tailored for small, independent filmmakers. A more detailed description, as well as complete project documentation can be found <a href="http://mgackowski.com/dixd">on my blog</a>.</p>
+						<p>The current version of the application is a prototype built as part of the Digital Interaction Design course at the University of Dundee, and is made available for assessment under the link below.</p>
+						<p>In the future I hope to keep working on the prototype and upload new versions. Regardless of how you've ended up here, please don't hesitate to try out the prototype and leave feedback in the appropriate section. The opinions of users have shaped this prototype significantly in the past.</p>
+						<p>Happy creating!</p>
+					</div>
+					<div id="two" style="padding:1em">
+						<p>The current prototype allows for:</p>
+						<ul>
+							<li>Creating new shots for a storyboard, duplicating and removing existing ones.</li>
+							<li>Accessing a shot editor, in which it is possible to freely adjust the various properties of a specific shot.</li>
+							<li>Applying presets to new shots, and overriding existing ones.</li>
+							<li>Full camera control using orbiting (left click or single finger drag), dollying (scrollwheel, pinching) and tracking sideways (right click or three finger drag).</li>
+							<li>The use of hotkeys 0 - 9 for setting the camera target, and X, C, V and B for setting fixed close-up levels.</li>
+							<li>Adding and positioning a new actor into a scene, including horizontal rotation.</li>
+							<li>Setting the acting pose (out of 15 available) and color of actors.</li>
+							<li>Modifying the intensity and color balance of a three-point light setup.</li>
+							<li>Setting the background color.</li>
+							<li>Describing a shot. The text will be placed under the cel in the storyboard preview.</li>
+							<li>Exporting single shots to a file</li>
+							<li>Drawing on top of shots using mouse, touchscreen or tablet.</li>
+							<li>Placing input and output frames to show camera movements using the I and O hotkeys. P removes the frames.</li>
+							<li>Previewing the current set of shots in a storyboard view, as a standard six cel template. These can be printed.</li>
+						</ul>
+						<p>However, keep in mind this prototype has some major limitations:</p>
+						<ul>
+							<li style="color:#22aadd">Scenes are not saved in any way. Finished shots will be saved upon returning to the sequence view as 2D images, but work on any new shots will override previous progress. Rearranging shots may not work properly, therefore at this stage I recommend working on shots in order.</li>
+							<li>While an unlimited number of shots can be created, only a single six-shot page will be generated.</li>
+							<li>The number of presets and poses are very limited.</li>
+							<li>Only one kind of actor, stage, and lighting setup are available.</li>
+							<li>Greyed out buttons and sliders are not available.</li>
+							<li>Mixed experience on mobile and touch devices.</li>
+							<li>A multitude of glitches and a whole lot of unoptimised code.</li>
+						</ul>
+						<p>Future prototypes will address these issues, as well as others suggested by testers.</p>
+					</div>
+					<div id="three" style="padding:1em">
+						<p>Feedback is very much appreciated. While I'm aware of a lot of issues and have a three-page document to help me fight them, your perspective can help shape the direction of development, and in the end help create a better experience for all of us.</p>
+						<p>Keep in mind, I'm only one guy with relatively little experience with coding. This can take a while.</p>
+						<p>Whether you would like to share your opinion, or are interested in cooperation through code, assets, or shares in your billion-dollar corporation, please write me at this address: <a href="mailto:mwgackowski@gmail.com">mwgackowski@gmail.com</a>.</p>
+						<p><a href="http://twitter.com/mgackowski">Also, Twitter.</a></p>
+						<p><a href="http://mgackowski.com">Also, my website.</a></p>
+						<p><a href="https://uk.linkedin.com/pub/mikolaj-gackowski/60/694/680">And LinkedIn, for good measure.</a></p>
+						<p>Unless you're here to assess my work for the viva. In that case, I'm going to find out soon enough.</p>
+					</div>
+				</div>
+
+				<a href="http://mgackowski.com/storyboard/editor.html" rel="external" class="ui-btn" style="background: #22aadd;opacity:0.8;width:50%;margin-left:auto;margin-right:auto">Access the Viva prototype</a>
+				<a href="http://mgackowski.com/dixd" rel="external" class="ui-btn" style="width:50%;margin-left:auto;margin-right:auto">Read the blog</a>
+
+			</div>
+			<div data-role="footer" data-position="fixed" style="padding-right:1em;text-align:center">
+				<p>&copy; 2015 Mikolaj Gackowski, University of Dundee</p>
+			</div>
+		</div>
+	</body>
+</html>

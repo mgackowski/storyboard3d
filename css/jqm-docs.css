@@ -1,0 +1,75 @@
+/* jqm docs css
+
+modified 9/03/15
+left parts responsible for responsive splitview
+*/
+
+.ui-listview {
+	margin-top:1em;
+}
+
+canvas {
+	
+}
+
+#shotPage {
+	background-color: #DDDDDD;
+	background-color: #E9E9E9;
+}
+
+#shotMenuHeader{
+
+	/*margin: -1em;*/
+	padding-bottom:2em;
+	border-style:none;
+}
+
+#shotHeader{
+
+	margin:0px;
+}
+
+#menuListview p{
+	padding:16px;
+}
+
+.ui-panel-inner {
+	padding:0em;
+}
+
+.content-primary {
+	width: 100%;
+
+	margin-top: -16px;
+	margin-left: -16px;
+}
+
+/* Hide the number input */
+.full-width-slider input {
+    display: none;
+}
+.full-width-slider .ui-slider-track {
+    margin-left: 15px;
+}
+
+ /*replace 650px with desired breakpoint*/
+@media all and (min-width: 900px){
+
+	.reduce-padding{
+		margin: 0em;
+	}
+	
+	.content-secondary {
+		float: left;
+		width: 20%; /*change as desired*/
+		height:100%;
+		background-color:#fff;
+	}
+
+	.content-primary {
+		width:80%; /*change as desired*/
+		float: right;
+		margin-right: -16px; /*override mysterious margins*/
+		margin-top: -16px;
+	}
+}
